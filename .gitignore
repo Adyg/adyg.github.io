@@ -1,0 +1,6 @@
+# Vagrant
+.vagrant
+/vagrant/data
+/vagrant/data/*
+vagrant/data
+vagrant/data/*
