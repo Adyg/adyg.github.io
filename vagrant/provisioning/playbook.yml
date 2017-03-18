@@ -5,6 +5,7 @@
 
   roles:
     - geerlingguy.ruby
+    - geerlingguy.nodejs
 
   tasks:
     - name: Running bundle install
