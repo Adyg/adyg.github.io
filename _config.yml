@@ -1,1 +1,15 @@
-theme: jekyll-whiteglass
+title: Notebook
+author: Adyg
+description: > 
+  Small collection of notes about interesting things I run into while working on web apps.
+twitter_username: Adriang
+github_username:  adyg
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vagrant
+  - run_dev_server.sh
