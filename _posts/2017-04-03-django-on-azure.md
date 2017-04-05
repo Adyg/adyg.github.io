@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Intro: Django - From Heroku To Azure"
-categories: django, azure
+categories: development
+tags: django,azure
 ---
 
 Recently had to switch hosting for a Django app from Heroku to Azure. This is a log of what the move involved.
@@ -27,6 +28,6 @@ The final Azure setup was composed out of:
 - **Authentication**: Azure Active Directory
 - **Deployment**: Azure's Web Application GIT workflow, along with Azure Resource Manager for deploying the infrastrucure
 
-This will be a series of posts, each detailing one aspect of hosting move.
+This will be a series of posts, each detailing one aspect of the hosting move. The entire process assumes you are running Ubuntu on your development machine, although it can easily be adapted to a Windows based development environment as well.
 
 
