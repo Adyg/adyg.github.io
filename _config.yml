@@ -7,6 +7,7 @@ github_username:  adyg
 stackoverflow_username: adrian-ghiuta
 stackoverflow_id: 4769900
 stackoverflow_name: adriang
+google_analytics: UA-96940405-1
 
 # Build settings
 markdown: kramdown
