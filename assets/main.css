@@ -43,6 +43,7 @@ p a {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.9em;
 }
 
 p a span {
