@@ -1,9 +1,5 @@
-# Vagrant
-.vagrant
-/vagrant/data
-/vagrant/data/*
-vagrant/data
-vagrant/data/*
-
-# Ignore docs files
 _site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

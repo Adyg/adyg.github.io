@@ -1,35 +1,11 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col footer-col-1">
-        <ul class="social-media-list">
-          {% if site.stackoverflow_username %}
-          <li>
-            {% include icon-stackoverflow.html username=site.stackoverflow_username id=site.stackoverflow_id name=site.stackoverflow_name %}
-          </li>
-          {% endif %}        
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+    <div class="wrapper">
+        {% if site.email %}
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        {% endif %}
+ 
+        {% if site.github_username %}
+            <p>{% include icon-github.html username=site.github_username %}</p>
+        {% endif %}
     </div>
-
-  </div>
-
-</footer>
+ </footer>

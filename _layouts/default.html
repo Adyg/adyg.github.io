@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+<body>
+  <main class="page-content" aria-label="Content">
+    
+    <img class="bg" src="{{site.url}}/images/logo_transparent.png" alt="AcrossTimezones RPA x ML" />
+
+    <div id="container">
+    {{ content }}
+    {% include footer.html %}
+    </div>
+
+</body>
+</html>
